@@ -1,0 +1,80 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #f2f6e9;
+  }
+  /*--- navigation bar ---*/
+  .navbar {
+    background:rgba(199, 81, 70, 1);;
+  }
+  .nav-link,
+  .navbar-brand {
+    color: #fff;
+    cursor: pointer;
+  }
+  .nav-link {
+    margin-right: 1em !important;
+  }
+  .nav-link:hover {
+    color: #000;
+  }
+  .navbar-collapse {
+    justify-content: flex-end;
+  }
+
+.description {
+    left: 50%;
+    position: absolute;
+    top: 45%;
+    transform: translate(-50%, -55%);
+    text-align: center;
+  }
+  .description h1 {
+    color: rgb(245, 72, 66);
+  }
+  .description p {
+    color: rgb(252, 224, 223);
+    font-size: 1.3rem;
+    line-height: 1.5;
+  }
+
+  .header {
+    background-image: url('images/NachosBackground.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 100vh;    
+  }
+
+  .overlay {
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.6);
+  }
+
+  .input-group {
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+  }
+
+  .btn-default {   
+    background-color: rgb(245, 72, 66);   
+    color:rgb(252, 224, 223);   
+    border-color: rgba(84, 8, 4, 1);   
+  }
+   
+  .btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open .dropdown-toggle.btn-default { 
+    background-color: rgba(129, 23, 27, 1);   
+    color:rgb(252, 224, 223);   
+    border-color: rgba(84, 8, 4, 1);   
+  }
+
+  .nacho-img {
+    position: relative;
+    height: 15%;
+    width: 15%;
+  }  
